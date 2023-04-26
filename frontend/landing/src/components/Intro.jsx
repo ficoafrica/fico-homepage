@@ -12,7 +12,7 @@ const Intro = () => {
           <p className='text-gray-700 tracking-wide my-2 leading-loose'>We help vendors get rare fresh 
           farm products directly from the farms, giving local farmers access to a large international vendor market. </p>
           <button className='bg-[#00df9a] text-white w-[200px] rounded-md font-medium my-10 mx-0 py-3
-          hover:tracking-wide hover:bg-green-600'>Get Started</button>
+          hover:tracking-wide hover:bg-green-600'><a href="#" >Get Started</a></button>
         </div>
         <img className='w-[500px] mx-auto my-4 rounded-lg transition-shadow hidden md:block' src={Delivery} alt="Delivery truck" />
       </div>

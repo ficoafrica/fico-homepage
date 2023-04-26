@@ -9,7 +9,7 @@ const Farmer = () => {
         <div className='flex flex-col justify-center'>
           <p className='text-[#00df9a] font-bold '>WELCOME TO THE FAMILY!</p>
           <p className='py-2 text-gray-600 tracking-wide'>We are open to working with you, either as a farmer or as an investor.</p>
-          <button className='bg-gray-700 text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Join Us</button>
+          <button className='bg-gray-700 text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'><a href="#" >Join Us</a></button>
         </div>
       </div>
     </div>

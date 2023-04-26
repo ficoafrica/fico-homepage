@@ -20,16 +20,16 @@ const Footer = () => {
         <div>
             <h6 className='font-medium text-gray-700'>Solutions</h6>
             <ul>
-                <li className='py-2 text-sm'>Analytics</li>
+                <li className='py-2 text-sm'>Food Supply</li>
                 <li className='py-2 text-sm'>Marketing</li>
                 <li className='py-2 text-sm'>Commerce</li>
-                <li className='py-2 text-sm'>Insights</li>
+                <li className='py-2 text-sm'>Logistics</li>
             </ul>
         </div>
         <div>
             <h6 className='font-medium text-gray-700'>Support</h6>
             <ul>
-                <li className='py-2 text-sm'>Pricing</li>
+                <li className='py-2 text-sm'>Dispute</li>
                 <li className='py-2 text-sm'>Documentation</li>
                 <li className='py-2 text-sm'>Guides</li>
                 <li className='py-2 text-sm'>API Status</li>
@@ -40,15 +40,14 @@ const Footer = () => {
             <ul>
                 <li className='py-2 text-sm'>About</li>
                 <li className='py-2 text-sm'>Blog</li>
-                <li className='py-2 text-sm'>Jobs</li>
-                <li className='py-2 text-sm'>Press</li>
+                <li className='py-2 text-sm'>Partners</li>
+                <li className='py-2 text-sm'>Farmers</li>
                 <li className='py-2 text-sm'>Careers</li>
             </ul>
         </div>
         <div>
             <h6 className='font-medium text-gray-700'>Legal</h6>
             <ul>
-                <li className='py-2 text-sm'>Claim</li>
                 <li className='py-2 text-sm'>Policy</li>
                 <li className='py-2 text-sm'>Terms</li>
             </ul>
