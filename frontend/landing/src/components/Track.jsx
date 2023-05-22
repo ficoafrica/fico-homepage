@@ -9,7 +9,7 @@ const Track = () => {
         <div className='flex flex-col justify-center'>
         <p className='text-[#00df9a] font-bold '>FAST AND SECURE DELIVERY</p>
           <p className='py-2 text-gray-600 tracking-wide'>Track your products with our new and improved product-tracking technology.</p>
-          <button className='bg-gray-700 text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'><a href="#" >Track Now</a></button>
+          <button className='bg-gray-700 text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Join Us</button>
         </div>
       </div>
     </div>

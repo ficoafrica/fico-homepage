@@ -2,8 +2,10 @@
 #Setup Backend
 
 1. cd ficoproject/backend
-2. pip install -r requirements.txt
-3. python manage.py runserver
+2. create virtualenv: py -m venv venv
+3. activate virtualenv: venv\Scripts\activate
+4. pip install -r requirements.txt
+5. python manage.py runserver
 
 
 #Setup Frontend
