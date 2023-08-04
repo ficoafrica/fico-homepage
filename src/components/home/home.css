@@ -1,0 +1,8 @@
+.home-overlay{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 1;
+}
