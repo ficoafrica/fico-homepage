@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Join from '../components/home/Join'
+import Partners from '../components/home/Partners'
+import AllProd from '../components/product/AllProd';
+import Header from '../components/product/Header';
 
 const Products = () => {
   return (
-    <div>Products</div>
+    <main>
+      <Header/>
+      <AllProd/>
+      <Join/>
+      <Partners/>
+    </main>
   )
 }
 
