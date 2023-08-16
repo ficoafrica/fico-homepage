@@ -11,29 +11,29 @@ const Footer = () => {
       <div className='grid md:grid-cols-3'>
         <div className='p-4'>
           <p className='text-sm'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nunc vulputate libero et velit interdum, ac aliquet odio
-          mattis. 
+          Cultivating Prosperity by giving Farmers Access to Thriving Vendor Markets 
+          for Sustainable Agricultural Success.
           </p>
         </div>
-        <div className='w-[330px] mx-auto p-4 flex justify-between'>
+        <div className='w-[430px] mx-auto p-4 flex justify-between'>
           <div className='text-sm'>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
+            <h1 className='font-medium text-gray-500 ' >ABOUT US</h1>
+            <p>Sustainability</p>
+            <p>Manifesto</p>
+            <p>Team</p>
+            <p>Contact</p>
           </div>
           <div className='text-sm'>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
+            <h1 className='font-medium text-gray-500 ' >SOLUTIONS</h1>
+            <p>Fico Logistics</p>
+            <p>Fico CSA</p>
+            <p>FicoMarket Nexus</p>
           </div>
           <div className='text-sm'>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
+            <h1 className='font-medium text-gray-500 ' >RESOURCES</h1>
+            <p>FAQ</p>
+            <p>Blogs</p>
+            <p>Press and Media Kit</p>
           </div>
         </div>
         <div className='p-4'>

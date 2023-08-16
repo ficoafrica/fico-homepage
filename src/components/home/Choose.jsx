@@ -16,7 +16,7 @@ const Choose = () => {
         <div id='container' className='h-[75px] w-[250px] lg:h-[100px] lg:w-[300px]  p-4 rounded-bl-[35px] rounded-tr-[35px] flex justify-between'>
           <span><Gift className="h-[40px] lg:h-[60px]"/></span>
           <span className='lg:px-2 lg:my-auto'>
-            <p className='text-xs'>Access to a large international vendor market.</p>
+            <p className='text-xs'>Access to a large lucrative vendor market.</p>
           </span>
         </div>
         <div id='container' className='h-[75px] w-[250px] lg:h-[100px] lg:w-[300px]  p-4 rounded-bl-[35px] rounded-tr-[35px] flex justify-between'>

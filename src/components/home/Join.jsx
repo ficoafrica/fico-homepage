@@ -10,9 +10,8 @@ const Join = () => {
           <div className='text-gray-50 my-auto'>
             <h2 className='text-4xl font-bold mb-8'>Thousands of people trust our agricultural products</h2>
             <p className='text-lg mb-8'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis. 
+                Discover the Heart of Agriculture at Fico Africa's AgriMarket Nexus. Embrace ethically sourced, farm-fresh produce directly from local growers. With every purchase, you support sustainable farming practices and empower communities.
+                Join us in nurturing a healthier planet, one delicious choice at a time. 
             </p>
             <button className='h-[40px] w-[200px] bg-gray-50 border rounded-bl-[30px] rounded-tr-[30px] text-[#43a047]'>
             <div className='flex justify-between w-[150px] mx-auto'>
@@ -24,9 +23,7 @@ const Join = () => {
           <div className="pt-14 px-6">
             <div className="h-[350px] px-8 flex items-center bg-gray-50 rounded-bl-[30px] rounded-tr-[30px]">
                 <p className='text-base text-gray-800'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis.
+                Fast, Secured, Efficient.
                 </p>
             </div>
             <div className='mt-6 w-[100px] mx-auto text-green-600 flex justify-between'>
@@ -40,11 +37,11 @@ const Join = () => {
       <div className='bg-white pt-10 rounded-bl-[120px] rounded-tr-[120px] md:hidden'>
         <div className='max-w-[400px] lg:max-w-[1000px] mx-auto grid'>
           <div className='text-gray-700 flex flex-col justify-center text-center'>
-            <h2 className='text-2xl font-bold mb-8'>Thousands of people trust our agricultural products</h2>
+            <h2 className='text-2xl font-bold mb-8'>Scale for Agricultural Sustainability.</h2>
             <p className='text-sm mb-8'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis. 
+                 Welcome to Fico Africa – Where Farmers Forge a Path to Prosperity! Join us in unlocking the potential of your agricultural venture by gaining seamless access to vast vendor markets. 
+                 Elevate your yields, cultivate success, and grow sustainably with our innovative agtech solutions.
+                 Start your journey towards a thriving future today! 
             </p>
             <div className='mx-auto'>
             <button className='h-[40px] w-[150px] bg-[#43a047] border rounded-bl-[30px] rounded-tr-[30px] text-gray-50'>
@@ -58,9 +55,7 @@ const Join = () => {
           <div className="pt-14 pb-6 px-6">
             <div className="h-[350px] px-8 flex items-center bg-green-200 rounded-bl-[30px] rounded-tr-[30px]">
                 <p className='text-gray-800 text-sm'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc vulputate libero et velit interdum, ac aliquet odio
-                mattis.
+                Learn, Scale, Earn. 
                 </p>
             </div>
             <div className='mt-6 w-[100px] mx-auto text-gray-600 flex justify-between'>

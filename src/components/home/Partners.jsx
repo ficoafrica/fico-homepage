@@ -6,7 +6,7 @@ const Partners = () => {
     <section className='pt-24'>
       <div className='text-center mb-6'>
         <h2 className='font-bold mb-4 text-2xl'>Trusted by Partners</h2>
-        <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p className='text-sm'>Partner with us and be part of this amazing journey.</p>
       </div>
       <div className='bg-gray-200 pb-12'>
         <div className='max-w-[1200px] py-8 mx-auto flex justify-between text-gray-500'>

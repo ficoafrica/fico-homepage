@@ -11,13 +11,13 @@ const Intro = () => {
         <div className='grid grid-cols-2 max-w-[1020px] h-[400px] mx-auto'>
           <div className='mt-8'>
             <h2 className='text-3xl font-bold text-gray-800'>Fico Africa</h2>
-            <p className='my-8 text-sm text-gray-800 pr-4'>Fico Africa is a technology based supply chain startup
-                located in Port Harcourt, Nigeria, that focuses on giving
+            <p className='my-8 text-sm text-gray-800 pr-4'>Fico Africa is an AgTech startup
+                that focuses on giving
                 smallholder farmers from underserved communities
                 access to a large network of global and local vendors
-                market. We aim to solve the problem of inflation on rare
-                commodities and help provide availability for those
-                commodities. We also provide secure logistics for vendors
+                market. We aim to solve the problem of food insecurity and reduce inflation
+                by providing faarmers with enabling technologies like Climate Smart Agriculture and Precision Farming. 
+                We also provide secure logistics for vendors
                 through our logistics solution built for the African market.</p>
             <div className='flex justify-between w-[330px]'>
               <span>
@@ -51,14 +51,15 @@ const Intro = () => {
       <div className='bg-white py-6 rounded-bl-[120px] rounded-tr-[120px] lg:hidden'>
         <div className='text-center w-[350px] mx-auto'>
         <h2 className='text-2xl font-bold text-gray-800'>Fico Africa</h2>
-            <p className='my-8 text-sm text-gray-800 pr-4'>Fico Africa is a technology based supply chain startup
-                located in Port Harcourt, Nigeria, that focuses on giving
+            <p className='my-8 text-sm text-gray-800 pr-4'>Fico Africa is an AgTech startup
+                that focuses on giving
                 smallholder farmers from underserved communities
                 access to a large network of global and local vendors
-                market. We aim to solve the problem of inflation on rare
-                commodities and help provide availability for those
-                commodities. We also provide secure logistics for vendors
+                market. We aim to solve the problem of food insecurity and reduce inflation
+                by providing faarmers with enabling technologies like Climate Smart Agriculture and Precision Farming. 
+                We also provide secure logistics for vendors
                 through our logistics solution built for the African market.</p>
+                
         </div>
         <div id='image' className='flex justify-center'>
           <img className='h-[180px]' src={union} alt='union'/>
