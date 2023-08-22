@@ -43,7 +43,7 @@ const FeatProd = () => {
         <button className='px-6 py-2 text-sm border-2 border-green-600'>All Categories</button>
       </div>
 
-      <div className='mt-8 flex justify-between overflow-x-auto'>
+      <div className='max-w-[1080px] mx-auto mt-12 flex justify-between overflow-x-auto'>
         {data.map((item, index) =>{
           const {name, img} = item
           return (

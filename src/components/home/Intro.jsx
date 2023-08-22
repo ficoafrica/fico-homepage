@@ -6,7 +6,7 @@ import img3 from '../../img/home/img3.png';
 
 const Intro = () => {
   return (
-    <section className='lg:h-screen border-b-2 bg-[#43a047]'>
+    <section className='lg:h-screen max-w-[1280px] lg:max-w-full border-b-2 bg-[#43a047]'>
       <div className='bg-white h-screen py-8 rounded-bl-[300px] rounded-tr-[300px] hidden lg:block'>
         <div className='grid grid-cols-2 max-w-[1020px] h-[400px] mx-auto'>
           <div className='mt-8'>
@@ -21,10 +21,10 @@ const Intro = () => {
                 through our logistics solution built for the African market.</p>
             <div className='flex justify-between w-[330px]'>
               <span>
-              <button className='h-[40px] w-[150px] bg-[#43a047] border rounded-bl-[30px] rounded-tr-[30px] text-gray-100'>Vendors</button>
+              <button className='h-[40px] w-[150px] bg-[#43a047] border rounded-bl-[15px] rounded-tr-[15px] text-gray-100'>Vendors</button>
               </span>
               <span>
-                <button className='h-[40px] w-[150px] bg-white border border-[#43a047] rounded-bl-[30px] rounded-tr-[30px] text-[#43a047]'>Farmers</button>
+                <button className='h-[40px] w-[150px] bg-white border border-[#43a047] rounded-bl-[15px] rounded-tr-[15px] text-[#43a047]'>Farmers</button>
               </span>
             </div>
           </div>
@@ -61,8 +61,8 @@ const Intro = () => {
                 through our logistics solution built for the African market.</p>
                 
         </div>
-        <div id='image' className='flex justify-center'>
-          <img className='h-[180px]' src={union} alt='union'/>
+        <div id='image' className='w-[300px] mx-auto'>
+          <img src={union} alt='union'/>
         </div>
           <div id='round-image' className='mt-4 w-[200px] mx-auto flex justify-between'>
           <span>

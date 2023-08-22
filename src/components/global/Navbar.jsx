@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul className='hidden md:flex'>
           <li className='p-4'>
             <Link to='/'>
-              <button className='h-[40px] w-[150px] bg-[#43a047] border rounded-bl-[30px] rounded-tr-[30px] text-gray-100'>
+              <button className='h-[40px] w-[150px] bg-[#43a047] border rounded-bl-[15px] rounded-tr-[15px] text-gray-100'>
                 Contact Us
               </button>
             </Link>
