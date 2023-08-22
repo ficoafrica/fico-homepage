@@ -17,10 +17,10 @@ const Intro = () => {
                     local vendors market.</p>
             <div className='flex justify-between w-[330px]'>
               <span>
-              <button className='h-[40px] w-[150px] bg-[#43a047] border rounded-bl-[15px] rounded-tr-[15px] text-gray-100'>Vendors</button>
+              <button className='h-[40px] w-[150px] bg-[#43a047] border rounded-bl-[15px] rounded-tr-[15px] text-gray-100 text-sm'>Vendors</button>
               </span>
               <span>
-                <button className='h-[40px] w-[150px] bg-white border border-[#43a047] rounded-bl-[15px] rounded-tr-[15px] text-[#43a047]'>Farmers</button>
+                <button className='h-[40px] w-[150px] bg-white border border-[#43a047] rounded-bl-[15px] rounded-tr-[15px] text-[#43a047] text-sm'>Farmers</button>
               </span>
             </div>
           </div>
@@ -69,10 +69,10 @@ const Intro = () => {
         </div>
         <div className='mt-8 mb-6 flex justify-between w-[300px] mx-auto'>
             <span>
-            <button className='h-[40px] w-[135px] bg-[#43a047] border rounded-bl-[18px] rounded-tr-[18px] text-gray-100'>Vendors</button>
+            <button className='h-[40px] w-[135px] bg-[#43a047] border rounded-bl-[18px] rounded-tr-[18px] text-gray-100 text-sm'>Vendors</button>
             </span>
             <span>
-              <button className='h-[40px] w-[135px] bg-white border border-[#43a047] rounded-bl-[18px] rounded-tr-[18px] text-[#43a047]'>Farmers</button>
+              <button className='h-[40px] w-[135px] bg-white border border-[#43a047] rounded-bl-[18px] rounded-tr-[18px] text-[#43a047] text-sm'>Farmers</button>
             </span>
         </div>
       </div>

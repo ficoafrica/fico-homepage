@@ -1,38 +1,47 @@
 import React from 'react'
 import './home.css';
-import { ReactComponent as Gift} from '../../svg/gift-open.svg'
+import image from '../../img/home/bg-img.jpg'
+import access from '../../img/home/access.png'
+import climate from '../../img/home/climate.png'
+import secure from '../../img/home/secure.png'
 
 const Choose = () => {
   return (
-    <div className='max-w-[1280px] mx-auto'>
-      <div className='text-center w-[450px] mx-auto'>
-        <h3 className='text-2xl font-bold mb-4'>Why Choose Us</h3>
-        <p className='text-sm'>Fico Africa is committed to delivering the best services for our customers and also help farmers scale
-        their production using our cutting-edge technologies. 
-        </p>
+    <section className='max-w-[350px] md:max-w-[1180px] h-[620px] md:h-[450px] mx-auto pt-16'>
+      <div className='h-[200px] md:h-[320px] grid md:grid-cols-[40%_60%]'>
+        <div id='feat' className='h-[200px] md:h-[320px]'>
+          <img src={image} alt='img'/>
+        </div>
+        <div className='bg-green-600 text-gray-100 py-6'>
+          <div className='max-w-[250px] md:max-w-[500px] mx-auto text-center'>
+            <h1 className='text-2xl md:text-3xl font-bold mb-4'>Why Choose Us</h1>
+            <p className='text-xs md:text-sm'>Fico Africa is committed to delivering the best services for our
+                customers and also help farmers scale their production using
+                our cutting-edge technologies.</p>
+          </div>
+          <div className='max-w-[250px] md:max-w-[450px] mx-auto grid mt-4'>
+            <div className='flex flex-row mb-2'>
+              <img className='h-[40px]' src={access} alt='access'/>
+              <span className='ml-4 my-auto'>
+                <p className="text-xs md:text-sm">Access to a Large international Vendor market.</p>
+              </span>
+            </div>
+            <div className='flex flex-row mb-2'>
+              <img className='h-[40px]' src={climate} alt='climate'/>
+              <span className='ml-4 my-auto'>
+                <p className="text-xs md:text-sm">Climate Smart Agricultural Solution for farmers.</p>
+              </span>
+            </div>
+            <div className='flex flex-row mb-2'>
+              <img className='h-[40px]' src={secure} alt='secure'/>
+              <span className='ml-4 my-auto'>
+                <p className="text-xs md:text-sm">Secure & safe farm logistics system</p>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div className='w-[250px] lg:w-[1050px] mx-auto mt-6 grid lg:grid-cols-3 gap-y-3'>
-        <div id='container' className='h-[75px] w-[250px] lg:h-[100px] lg:w-[300px]  p-4 rounded-bl-[35px] rounded-tr-[35px] flex justify-between'>
-          <span><Gift className="h-[40px] lg:h-[60px]"/></span>
-          <span className='lg:px-2 lg:my-auto'>
-            <p className='text-xs'>Access to a large lucrative vendor market.</p>
-          </span>
-        </div>
-        <div id='container' className='h-[75px] w-[250px] lg:h-[100px] lg:w-[300px]  p-4 rounded-bl-[35px] rounded-tr-[35px] flex justify-between'>
-        <span><Gift className="h-[40px] lg:h-[60px]"/></span>
-          <span className='lg:px-2 lg:my-auto'>
-            <p className='text-xs'>Climate Smart Agricultural solution for farmers.</p>
-          </span>
-        </div>
-        <div id='container' className='h-[75px] w-[250px] lg:h-[100px] lg:w-[300px]  p-4 rounded-bl-[35px] rounded-tr-[35px] flex justify-between'>
-        <span><Gift className="h-[40px] lg:h-[60px]"/></span>
-          <span className='lg:px-2 lg:my-auto'>
-            <p className='text-xs'>Secure and safe farm logistics system.</p>
-          </span>
-        </div>
-      </div>
-    </div>
+    </section>
   )
 }
 
