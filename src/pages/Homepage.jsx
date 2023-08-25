@@ -1,16 +1,16 @@
 import React from 'react';
 import Intro from '../components/home/Intro'; 
-import Combined from '../components/home/Combined';
+import Choose from '../components/home/Choose';
+import FeatProd from '../components/home/FeatProd';
 import Join from '../components/home/Join';
-import Partners from '../components/home/Partners'
 
 const Homepage = () => {
   return (
     <main>
       <Intro/>
-      <Combined/>
+      <Choose/>
+      <FeatProd/>
       <Join/>
-      <Partners/>
     </main>
   )
 }

@@ -4,33 +4,33 @@ import {FaWhatsapp, FaFacebook, FaLinkedin} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <section className='max-w-[1280px] mx-auto pt-16 md:pt-28 pb-10'>
+    <section className='max-w-[1280px] mx-auto pt-16 lg:pt-28 pb-10'>
       <div id='logo' className='p-4'>
-        <img className='h-[35px] mx-auto md:mx-0' src={logo} alt='logo'/>
+        <img className='h-[35px] mx-auto lg:mx-0' src={logo} alt='logo'/>
       </div>
-      <div className='grid md:grid-cols-3'>
-        <div className='p-4'>
-          <p className='text-sm'>
+      <div className='grid lg:grid-cols-3'>
+        <div className='w-[350px] mx-auto py-4 text-center lg:text-start'>
+          <p className='text-xs md:text-sm'>
           Cultivating Prosperity by giving Farmers Access to Thriving Vendor Markets 
           for Sustainable Agricultural Success.
           </p>
         </div>
-        <div className='w-[430px] mx-auto p-4 flex justify-between'>
-          <div className='text-sm'>
-            <h1 className='font-medium text-gray-500 ' >ABOUT US</h1>
+        <div className='w-[360px] md:w-[430px] mx-auto p-4 flex justify-between'>
+          <div className='text-xs md:text-sm'>
+            <h1 className='font-medium text-gray-500'>ABOUT US</h1>
             <p>Sustainability</p>
             <p>Manifesto</p>
             <p>Team</p>
             <p>Contact</p>
           </div>
-          <div className='text-sm'>
-            <h1 className='font-medium text-gray-500 ' >SOLUTIONS</h1>
+          <div className='text-xs md:text-sm'>
+            <h1 className='font-medium text-gray-500'>SOLUTIONS</h1>
             <p>Fico Logistics</p>
             <p>Fico CSA</p>
             <p>FicoMarket Nexus</p>
           </div>
-          <div className='text-sm'>
-            <h1 className='font-medium text-gray-500 ' >RESOURCES</h1>
+          <div className='text-xs md:text-sm'>
+            <h1 className='font-medium text-gray-500'>RESOURCES</h1>
             <p>FAQ</p>
             <p>Blogs</p>
             <p>Press and Media Kit</p>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div id='socials' className='p-4 w-[160px] mx-auto flex justify-between mt-6 md:mt-0 md:mx-0'>
+      <div id='socials' className='p-4 w-[160px] mx-auto flex justify-between mt-6 lg:mt-0 lg:mx-0'>
         <span className='bg-gray-300 p-2 rounded-full'>
           <FaWhatsapp/>
         </span>
@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <hr className='h-[10px]'/>
       <div className='my-4 text-center'>
-        <p className='text-gray-500 text-xs'>Copyright 2021 FicoAfrica. All Rights Reserved</p>
+        <p className='text-gray-500 text-xs'>Copyright 2023 FicoAfrica. All Rights Reserved</p>
       </div>
     </section>
   )
