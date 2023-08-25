@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './home.css';
 import carrot from '../../img/home/carrots.jpg';
 import corn from '../../img/home/corn.jpg';
@@ -57,7 +58,9 @@ const FeatProd = () => {
       </div>
 
       <div className='mt-8 mb-6 flex justify-center'>
+      <Link to='/products'>
         <button className='px-6 py-2 text-sm border-2 border-green-600 rounded-bl-[15px] rounded-tr-[15px]'>View Products</button>
+      </Link>
       </div>
     </div>
   )
