@@ -1,0 +1,11 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ficoconx/public_html # Update with your cPanel username and deployment path
+
+    - npm install --production
+    - npm run build
+
+    - /bin/cp -R build/* $DEPLOYPATH
+
+    - /usr/local/cpanel/bin/safeuserdatactl ficoconx enable
