@@ -16,7 +16,7 @@ const data = [
   },
   {
     id: 2,
-    name: 'Fresh corns',
+    name: 'Corns',
     img: corn,
     category: "Grains",
   },
@@ -34,7 +34,7 @@ const data = [
   },
   {
     id: 5,
-    name: 'Fresh tomatoes',
+    name: 'Tomatoes',
     img: tomato,
     category: "Vegetables"
   },
@@ -46,7 +46,7 @@ const data = [
   },
   {
     id: 7,
-    name: 'Fresh corns',
+    name: 'Corns',
     img: corn,
     category: "Grains",
   },
@@ -64,7 +64,7 @@ const data = [
   },
   {
     id: 10,
-    name: 'Fresh tomatoes',
+    name: 'Tomatoes',
     img: tomato,
     category: "Vegetables"
   },
@@ -74,6 +74,21 @@ const allCategories = ['All Categories', ...new Set(data.map((items) => items.ca
 
 const Products = () => {
   const [products, setProducts] = useState(data);
+  const [name, setName] = useState('');
+
+  const searchItems = (e) =>{
+    const keyword = e.target.value;
+
+    if (keyword !== ''){
+      const results = data.filter((item) =>{
+        return item.name.toLowerCase().startsWith(keyword.toLowerCase());
+      });
+      setProducts(results)
+    }else{
+      setProducts(data)
+    }
+    setName(keyword);
+  }
 
   const filterItems = (category) =>{
     if (category === 'All Categories'){
@@ -86,7 +101,7 @@ const Products = () => {
 
   return (
     <main>
-      <Filter categories={allCategories} filterItems={filterItems}/>
+      <Filter categories={allCategories} filterItems={filterItems} searchItems={searchItems} name={name}/>
       <AllProd products={products}/>
     </main>
   )
