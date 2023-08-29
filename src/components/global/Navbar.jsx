@@ -1,9 +1,27 @@
-import React from 'react'
-import logo from '../../img/global/logo.png'
+import React, {useState, useEffect, useRef} from 'react';
+import logo from '../../img/global/logo.png';
 import { Link } from 'react-router-dom';
-import { FaBars } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa';
+import Sidebar from './Sidebar';
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false);
+  const accMenuRef = useRef()
+
+  useEffect(() => {
+    let handler = (e)=>{
+      if(!accMenuRef?.current?.contains(e.target)){
+        if(nav){
+          setNav(false);
+        }
+      }      
+    };
+    document.addEventListener("mousedown", handler);
+    
+    return() =>{
+      document.removeEventListener("mousedown", handler);
+    }
+  });
 
   return (
     <section className="flex justify-between items-center h-20 max-w-[1280px] mx-auto px-4 text-gray-800">
@@ -28,9 +46,10 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className='text-green-600 md:hidden'>
+      <div className='text-green-600 cursor-pointer md:hidden' onClick={()=> {setNav(true)}}>
         <FaBars/>
       </div>
+      <Sidebar nav={nav} toggle={setNav} menuRef={accMenuRef}/>
     </section>
   )
 }
