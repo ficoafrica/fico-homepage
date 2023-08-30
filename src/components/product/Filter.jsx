@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import {RiArrowDropDownLine} from 'react-icons/ri'
 import './product.css'
 
@@ -6,24 +6,26 @@ const Filter = ({categories, filterItems, searchItems, name}) => {
   const [active, setActive] = useState(0);
   const [selected, setSelected] = useState('All Categories');
   const [drop, setDrop] = useState(false);
-  // const accMenuRef = useRef()
+  const menuRef = useRef()
 
   const handleClick = (index) =>{
     setActive(index)
   }
 
-  // useEffect(() => {
-  //   let handler = (e)=>{
-  //     if(!accMenuRef?.current?.contains(e.target)){
-  //       setDrop(false);
-  //     }      
-  //   };
-  //   document.addEventListener("mousedown", handler);
+  useEffect(() => {
+    let handler = (e)=>{
+      if(!menuRef?.current?.contains(e.target)){
+        if(drop){
+          setDrop(false);
+        }
+      }      
+    };
+    document.addEventListener("mousedown", handler);
     
-  //   return() =>{
-  //     document.removeEventListener("mousedown", handler);
-  //   }
-  // });
+    return() =>{
+      document.removeEventListener("mousedown", handler);
+    }
+  });
 
 
   return (
@@ -53,14 +55,14 @@ const Filter = ({categories, filterItems, searchItems, name}) => {
           )
         })}
       </div>
-      <div className="max-w-[450px] mx-auto mt-10 md:hidden">
+      <div className="max-w-[450px] mx-auto mt-10 md:hidden" ref={menuRef}>
         <div className='flex justify-between w-[180px] mx-auto border-2 border-green-600 text-black text-center text-xs cursor-pointer'
-        onClick={()=> setDrop(!drop)}
+        onClick={()=> {setDrop(!drop)}}
         >
             <span className='py-1 pl-4'>{selected}</span>
           <span className='border-l-2 border-green-600 p-1'><RiArrowDropDownLine size={20}/></span>        
         </div>
-        <div className={drop? 'w-[180px] mx-auto border-2 border-t-0 border-green-600 text-xs flex flex-col text-center': 'hidden'}>
+        <div className={drop? 'w-[180px] mx-auto border-2 border-t-0 border-green-600 text-xs flex flex-col text-center ease-in-out duration-500': 'hidden'}>
         {categories.map((category, index)=> {
             return(
               <span
